@@ -1,0 +1,35 @@
+body {
+    width: 90vw;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+html {
+    /* HTML element is the root element of an HTML document. Two instances when you would apply properties to the HTML element instead of the body.
+    1. When you want to use REM units (Relative Measurement). Used to scale to the font-size property of your root element.
+    2. Applying the background-property to the entire viewport of your screen. */
+    background: linear-gradient(
+    180deg,
+    rgb(163, 137, 84) 0%,
+    rgb(107, 66, 84) 50%,
+    rgb(64, 107, 112) 100%
+    );
+    font-size: 15px;
+}
+
+h1, 
+h2 {
+    font-family: "Metal", sans-serif;
+    color: #ffffff;
+}
+
+/* h2 {
+    font-family: "Metal", sans-serif;
+    color: #ffffff;
+} */
+
+p, 
+li {
+    font-family: "Roboto Serif", sans-serif;
+    color: rgb(255, 255, 255);
+}
